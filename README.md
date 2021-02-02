@@ -1,5 +1,7 @@
 # Getting Started with 
 
+The project has been deployed [here](https://react-krish.herokuapp.com/) .
+
 ## Available Scripts
 
 In the project directory, you can run:
