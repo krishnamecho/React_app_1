@@ -4,14 +4,14 @@
 
 In the project directory, you can run:
 
-`
+```bash
 npm i react
 npm i react-dom
 npm i react-router-dom
 npm i react-scripts
 npm install bootstrap@next
 npm i web-vitals
-`
+```
 
 ### `npm start`
 
