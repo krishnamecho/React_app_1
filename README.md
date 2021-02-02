@@ -13,9 +13,8 @@ npm i react-router-dom
 npm i react-scripts
 npm install bootstrap@next
 npm i web-vitals
+npm start
 ```
-
-### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
