@@ -1,5 +1,4 @@
 import Img_1 from './images/Img_1.JPG'
-import Img_2 from './images/Img_2.JPG'
 import Img_3 from './images/Img_3.JPG'
 import Img_4 from './images/Img_4.JPG'
 
@@ -9,7 +8,7 @@ const Sdata = [
         title: "Image 1"
     },
     {
-        imgsrc: Img_2,
+        imgsrc: Img_1,
         title: "Image 2"
     },
     {
