@@ -5,7 +5,7 @@ import Common from './Common'
 const About = () => {
     return (
         <>
-            <Common heading1="Welcome to" strongHead="About Page" buttonTitle="About" imgSrc={web} visitSrc="/about"/>
+            <Common heading1="Welcome to" strongHead="About Page" buttonTitle="About" imgSrc={web} visitSrc="/wabble"/>
         </>
     );
 };
