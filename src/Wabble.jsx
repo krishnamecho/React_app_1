@@ -22,7 +22,7 @@ const Box = ({position, args, color, speed, factor}) => {
 const Wabble = () => {
     return(
         <>
-        <Canvas shadowMap colorManagement camera={{position: [-5, 2, 10], fov: 60}}> {/*No HTML elements are allowed withing Canvas since it uses only three js elements*/}
+        <Canvas shadowMap colorManagement camera={{position: [-5, 2, 10], fov: 30}}> {/*No HTML elements are allowed withing Canvas since it uses only three js elements*/}
             <ambientLight intensity={0.3}/> 
             <pointLight position={[-10, 0, -20]} intensity={0.5} />
             <pointLight position={[0, -10, 0]} intensity={0.5} />

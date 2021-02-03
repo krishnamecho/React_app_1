@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Wabble from './Wabble';
 
 
 const Common = ({heading1, strongHead, buttonTitle, imgSrc, visitSrc}) => {
@@ -17,6 +18,7 @@ const Common = ({heading1, strongHead, buttonTitle, imgSrc, visitSrc}) => {
                                     <div className="mt-3">
                                         <NavLink to={visitSrc} className="btn-get-started">{buttonTitle}</NavLink>
                                     </div>
+                                    <Wabble />
                                 </div>
                                 <div className="col-lg-6 order-1 order-lg-2 header-img">
                                     <img src={imgSrc} className="img-fluid animated" alt="Logo" />
