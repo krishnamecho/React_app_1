@@ -1,6 +1,14 @@
 import React from 'react';
+import Anime from 'animejs/lib/anime.es'
 
 const Apple = () =>{
+    Anime({
+        targets: '.intro',
+        translateX: 250,
+        rotate: '1turn',
+        backgroundColor: '#FFF',
+        duration: 800
+    });
 
     return(
         <>
